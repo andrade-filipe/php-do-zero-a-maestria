@@ -1,5 +1,3 @@
 <?php
 
-    echo "Filipe Andrade";
-
-?>
+echo "Filipe Andrade";

@@ -1,16 +1,14 @@
 <?php
 
-    //not case sensitive
-    echo "teste <br>";
-    ECHO "teste 2 <br>";
-    eChO "teste 3 <br>";
+//not case sensitive
+echo "teste <br>";
+echo "teste 2 <br>";
+echo "teste 3 <br>";
 
-    //case sensitive
-    $nome = "Matheus";
-    $NOME = "Filipe";
+//case sensitive
+$nome = "Matheus";
+$NOME = "Filipe";
 
-    echo $nome;
-    echo "<br>";
-    echo $NOME;
-
-?>
+echo $nome;
+echo "<br>";
+echo $NOME;
