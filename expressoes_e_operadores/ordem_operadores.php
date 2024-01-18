@@ -20,6 +20,7 @@ echo "<br>";
 
 $e = $a / $c * $d - $b;
 
+echo "<br>";
 echo $e;
 
 ?>
