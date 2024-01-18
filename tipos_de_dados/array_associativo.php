@@ -9,7 +9,7 @@ echo "<br>";
 
 //exercicio 6
 
-$carros = ['modelo'=>'Corolla', 'montadora'=>'Toyota', 'ano'=>2023, 'kilometragem'=>30.000];
+$carros = ['modelo'=>'Corolla', 'montadora'=>'Toyota', 'ano'=>2023, 'kilometragem'=>30000];
 
 echo $carros['ano'];
 echo "<br>";
