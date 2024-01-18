@@ -7,7 +7,7 @@ class ValueHolder
 $var = new ValueHolder();
 $var->value = 10;
 
-$sync = &$var;
+$sync =& $var;
 
 echo $var->value;
 echo "<br>";
