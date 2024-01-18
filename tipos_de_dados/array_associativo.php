@@ -6,6 +6,7 @@ echo $arr['cor'];
 echo "<br>";
 print_r($arr);
 echo "<br>";
+echo "<br>";
 
 //exercicio 6
 
@@ -20,4 +21,5 @@ echo $carros['ano'];
 echo "<br>";
 echo $carros['kilometragem'];
 echo "<br>";
+print_r($carros);
 ?>
