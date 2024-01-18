@@ -36,7 +36,7 @@ $pessoa = [
 
 $maioridade_por_lei = 18;
 
-if ($pessoa['idade'] > $maioridade_por_lei) {
+if ($pessoa['idade'] >= $maioridade_por_lei) {
     echo "é de maior por lei <br>";
 }
 ?>
