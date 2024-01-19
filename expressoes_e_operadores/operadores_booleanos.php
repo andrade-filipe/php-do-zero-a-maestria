@@ -52,4 +52,22 @@ if($x !== $y){
     echo "5 !== 3 <br>";
 }
 
+echo "<br>";
+
+if($x > $y){
+    echo " 5 > 3 <br>";
+}
+
+if($x >= $y){
+    echo " 5 >= 3 <br>";
+}
+
+if($x < $y){
+    echo " 5 < 3 <br>";
+}
+
+if($x <= $y){
+    echo " 5 <= 3 <br>";
+}
+
 ?>
