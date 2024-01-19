@@ -12,4 +12,6 @@
 
     // func_get_args -> retorna um array com os argumentos passados numa função
     // func_num_args -> retorna o numero de argumentos de uma função
+
+    // print_r e var_dump para debug, muit importante!!!
 ?>
