@@ -36,4 +36,8 @@
 
     print_r($arrAssociativo);
     echo "<br>";
+
+    $arrRange = range(5,50,5);
+    print_r($arrRange);
+    echo "<br>";
 ?>
