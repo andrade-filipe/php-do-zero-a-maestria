@@ -17,4 +17,12 @@
 
     print_r($values);
     echo "<br>";
+
+    if(array_key_exists("motor", $carro)){
+        echo "chave existe <br>";
+    }
+
+    if(isset($carro["motor"])){
+        echo "chave existe isset <br>";
+    }
 ?>
