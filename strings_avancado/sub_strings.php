@@ -18,4 +18,11 @@ $inverter = strrev($string);
 
 echo "$inverter <br>";
 
+echo str_repeat($string, 5);
+
+echo "<br>";
+
+$arr = explode(" ",$string);
+
+print_r($arr);
 ?>
