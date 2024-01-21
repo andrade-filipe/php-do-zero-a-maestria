@@ -31,4 +31,10 @@ echo "<br>";
 krsort($arrAssoc); //por chave reverso
 print_r($arrAssoc);
 echo "<br>";
+echo "<br>";
+
+
+shuffle($arr); //aleatorio
+print_r($arr);
+echo "<br>";
 ?>
