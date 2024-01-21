@@ -7,7 +7,7 @@ sort($arr);
 print_r($arr);
 echo "<br>";
 
-$arrReverse = [30,10,1,3,6,20,55,65,0,4,3,2,11];
+$arrReverse = [30,10,1,3,6,25,55,65,0,4,3,2,11];
 
 rsort($arrReverse);
 print_r($arrReverse);
@@ -37,4 +37,13 @@ echo "<br>";
 shuffle($arr); //aleatorio
 print_r($arr);
 echo "<br>";
+
+echo array_sum($arr);
+echo "<br>";
+
+$mergeArrays = array_merge($arr, $arrAssoc);
+print_r($mergeArrays);
+echo "<br>";
+
+print_r(array_diff($arrReverse, $arr));
 ?>
