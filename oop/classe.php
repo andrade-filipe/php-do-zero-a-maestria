@@ -6,4 +6,6 @@
 
     }
 
+    $matheus = new User;
+
 ?>
