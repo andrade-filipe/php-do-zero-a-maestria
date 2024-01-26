@@ -9,4 +9,8 @@
         }
     }
 
+    $testandoThis = new TestandoThis;
+
+    $testandoThis->teste();
+
 ?>
