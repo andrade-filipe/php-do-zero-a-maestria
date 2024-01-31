@@ -1,6 +1,8 @@
 <?php
 
-$nome = $_GET['nome'];
+if(isset($_GET['nome'])){
+    $nome = $_GET['nome'];
+}
 
 ?>
 
