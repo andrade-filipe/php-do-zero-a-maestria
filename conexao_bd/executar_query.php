@@ -6,4 +6,6 @@
     $result = $connection->query($query);
 
     print_r($result);
+
+    $connection->close();
 ?>
