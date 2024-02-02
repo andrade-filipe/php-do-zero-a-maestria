@@ -10,4 +10,9 @@
     $itens = $result->fetch_assoc();
 
     print_r($itens);
+    echo "<br>";
+
+    $todosOsItens = $result->fetch_all();
+
+    print_r($todosOsItens);
 ?>
