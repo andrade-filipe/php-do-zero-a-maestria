@@ -6,12 +6,12 @@
         private $km;
         private $color;
 
-        function __construct($id, $brand, $km, $color){
-            $this -> $id = $id;
-            $this -> $brand = $brand;
-            $this -> $km = $km;
-            $this -> $color = $color;
-        }
+        // function __construct($id, $brand, $km, $color){
+        //     $this -> $id = $id;
+        //     $this -> $brand = $brand;
+        //     $this -> $km = $km;
+        //     $this -> $color = $color;
+        // }
 
         public function getId(){
             return $this -> $id;
@@ -33,7 +33,7 @@
         }
 
         public function setkm($km){
-            $this -> $km = $km;
+            $this -> $km = intVal($km);
         }
 
         public function getColor(){
