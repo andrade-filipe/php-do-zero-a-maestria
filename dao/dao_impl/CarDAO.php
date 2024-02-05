@@ -15,12 +15,12 @@
 
             $data = $stmt -> fetchAll();
 
-            foreach($data as $car){
+            foreach($data as $item){
                 $car = new Car();
-                $car -> setId($car["id"]);
-                $car -> setBrand($car["brand"]);
-                $car -> setKm($car["km"]);
-                $car -> setColor($car["color"]);
+                $car -> setId($item["id"]);
+                $car -> setBrand($item["brand"]);
+                $car -> setKm($item["km"]);
+                $car -> setColor($item["color"]);
 
                 $cars[] = $car;
             }

@@ -2,7 +2,7 @@
     include_once("db.php");
     include_once("dao_impl/CarDAO.php");
 
-    $carDAO = new CarDAO($connection);
+    $carDao = new CarDAO($connection);
 
     $cars = $carDao -> findAll();
 
@@ -24,3 +24,8 @@
     </div>
     <input type="submit" value="Salvar">
 </form>
+<ul>
+    <?php foreach($cars as $car): ?>
+        <li><?= $car -> getBrand() ?> - <?= $car -> getKm() ?> - <?= $car -> getColor() ?></li>
+    <?php endforeach; ?>
+</ul>
