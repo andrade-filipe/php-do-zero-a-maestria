@@ -14,34 +14,34 @@
         // }
 
         public function getId(){
-            return $this -> $id;
+            return $this -> id;
         }
 
         public function setId($id){
-            $this -> $id = $id;
+            $this -> id = $id;
         }
         public function getbrand(){
-            return $this -> $brand;
+            return $this -> brand;
         }
 
         public function setBrand($brand){
-            $this -> $brand = $brand;
+            $this -> brand = $brand;
         }
 
         public function getKm(){
-            return $this -> $km;
+            return $this -> km;
         }
 
         public function setkm($km){
-            $this -> $km = intVal($km);
+            $this -> km = intVal($km);
         }
 
         public function getColor(){
-            return $this -> $color;
+            return $this -> color;
         }
 
         public function setcolor($color){
-            $this -> $color = $color;
+            $this -> color = $color;
         }
     }
 
