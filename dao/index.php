@@ -1,5 +1,11 @@
 <?php
     include_once("db.php");
+    include_once("dao_impl/CarDAO.php");
+
+    $carDAO = new CarDAO($connection);
+
+    $cars = $carDao -> findAll();
+
 ?>
 
 <h1>Insira um Carro</h1>

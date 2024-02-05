@@ -1,8 +1,8 @@
 <?php
-    include_once("config.php");
+    include_once("db.php");
     include_once("dao_impl/CarDAO.php");
 
-    $car = new CarDAO($connection);
+    $carDao = new CarDAO($connection);
 
     $brand = $_POST["brand"];
     $km = $_POST["km"];
@@ -12,7 +12,7 @@
 
     $newCar -> setBrand($brand);
     $newCar -> setKm($km);
-    $newCar -> setColor($Color);
+    $newCar -> setColor($color);
 
     $carDao -> create($newCar);
 
